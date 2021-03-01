@@ -1,0 +1,44 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "name": "Driver",
+  "fields": [
+    {
+      "name": "uuid",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "drivingLicence",
+      "type": "string"
+    },
+    {
+      "name": "driverName",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "associatedVehicleUUID",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name" : "eventType",
+      "type" : [
+        "null" ,
+        "string"
+      ],
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,44 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "name": "Vehicle",
+  "fields": [
+    {
+      "name": "uuid",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "registrationNumber",
+      "type": "string"
+    },
+    {
+      "name": "modelNo",
+      "type": "string"
+    },
+    {
+      "name": "chassisType",
+      "type": "string"
+    },
+    {
+      "name": "associatedDriverUUID",
+      "type": [
+        "null" ,
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name" : "eventType",
+      "type" : [
+        "null" ,
+        "string"
+      ],
+      "default": null
+    }
+  ]
+
+}
